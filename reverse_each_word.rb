@@ -1,5 +1,3 @@
 def reverse_each_word(sentence)
-sentence.split.collect {|word| word.revers}.join 
-sentence.reverse
-sentence.join
+sentence.split.collect {|word| word.revers}.join(" ") 
 end
